@@ -1,0 +1,103 @@
+@import "./styles/colors";
+@import "./styles/fonts";
+.App {
+  text-align: center;
+  height: 150vh;
+  background-color: $primary_gray;
+  .first {
+    padding-top: 137px;
+    @include rubik48Bold;
+    color: $green_accent;
+  }
+  .text {
+    @include rubik11Bold;
+    color: $white_accent;
+  }
+  .second {
+    margin-top: 59px;
+    @include rubik20Bold;
+    color: $white_accent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign_up {
+    color: $white_accent;
+    margin-top: 16px;
+    @include rubik17Medium;
+  }
+  .elipse {
+    margin-top: 27px;
+    max-width: 239px;
+    max-height: 240px;
+  }
+  .third {
+    @include rubik11Bold;
+    color: $white_accent;
+
+    padding-top: 70px;
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fourth {
+    padding-top: 22px;
+
+    @include rubik16Bold;
+    color: $white_accent;
+  }
+  .fourth h1 {
+    padding-top: 22px;
+
+    @include rubik16Bold;
+    color: $green_accent;
+  }
+  .first_img {
+    margin: 13px;
+    max-width: 9px;
+    max-height: 9px;
+  }
+  .second_img {
+    margin: 13px;
+    max-width: 9px;
+    max-height: 9px;
+  }
+}
+
+.App-logo {
+  // height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
