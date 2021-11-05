@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
 @mixin rubik48Bold {
   font-size: 48px;
   font-family: "Rubik", sans-serif;
@@ -19,8 +21,14 @@
   font-weight: 400;
 }
 
-@mixin rubik17Medium {
+@mixin blogger17medium {
   font-size: 17px;
   font-family: "Rubik", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+@mixin kelsonsans20 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }

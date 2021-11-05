@@ -1,0 +1,4 @@
+export const authActions={
+    AUTH_USER_SUCCESS: 'AUTH_USER_SUCCESS',
+    AUTH_USER_FAILED: 'AUTH_USER_FAILED',
+}
